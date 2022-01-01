@@ -10,7 +10,7 @@ main{
     flex-direction: column;
 }
 
-main h1{
+/* main h1{
     margin-left: 10px;
 }
 
@@ -44,7 +44,7 @@ main header nav a:hover {
     cursor: pointer;
     font-size: 20px;
     padding: 4px 10px;
-}
+} */
 
 main div{
     background-image:  url(images/bgImage.jpg);
@@ -86,7 +86,7 @@ section{
     margin: 20px;
 }
 
-footer{
+/* footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -103,4 +103,4 @@ footer nav a{
 
 footer nav a img{
     width: 30px;
-}
+} */
