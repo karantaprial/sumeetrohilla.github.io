@@ -19,13 +19,14 @@ main header {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 main header nav{
     display: flex;
     flex-direction: row;
+
 }
 
 main header nav a{
@@ -33,7 +34,10 @@ main header nav a{
     align-items: center;
     padding: 20px 10px;
     transition: all 0.2s ease;
+    text-decoration: none!important;
+    color:inherit;
 }
+
 
 main header nav a:hover {
     background-color: #444444;
