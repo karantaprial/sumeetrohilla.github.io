@@ -28,8 +28,9 @@ main div h2{
 }
 
 section{
-    margin: 50px 30%;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 #wip div{
