@@ -28,14 +28,12 @@ main div h2{
 }
 
 section{
-    display: flex;
+    float: inherit;
     text-align: center;
     justify-content: center;
 }
 
 #wip div{
-    display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
 }
 #wip div div{
