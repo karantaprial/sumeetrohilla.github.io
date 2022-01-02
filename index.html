@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- <meta charset="utf-8">
-        <meta name="viewport" content="width = device-width, initial-scale=1.0"> -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
         
         <script
             src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -30,34 +33,38 @@
             margin-left: 10px;
             margin-right: 10px;
             border-bottom: 1px solid black;
-            color: black;" id="myheader">
+            color: black;"
+            id="myheader">
             </header>
-
             <br/>
-            
-            <div style="margin-left: 10px;
-            margin-right: 10px;">
-                <h2>First website coding</h2>
+            <div>
+                <h2>Ongoing projects</h2>
             </div>
         </main>
         <section id ="wip">
-            <h3>Work in progress</h3>
             <div>
                 <div>
-                    <img src="images/comingSoon.png">
-                    <h4>Coming Soon!</h4>
+                    <video width="400" controls muted>
+                        <source src="images/IMG_7556.mp4" type="video/mp4">
+                    </video>
+                    <h4>Sensory embeddings</h4>
                 </div>
                 <div>
-                    <img src="images/maw.png">
-                    <h4>Men at Work!</h4>
+                    <video width="360" controls muted>
+                        <source src="images/audio_reactive.mp4" type="video/mp4">
+                    </video>
+                    <h4>Audio-reactive visuals</h4>
                 </div>
                 <div>
-                    <img src="images/wip.png">
-                    <h4>Work in progress!</h4>
+                    <img src="images/manRidingCycle.JPG" width="300">
+                    <h4 style="background-color: red;">Sounds of India<br/>(Work in progress)</h4>
                 </div>
             </div>
         </section>
-        <footer>
+        <section style="height: 1vh;"></section>
+        <footer style="border-top: 1px solid black;
+                       margin-left: 10px;
+                       margin-right: 10px;">
             <div id="myfooter"></div>
         </footer>
     </body>

@@ -1,64 +1,29 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 main{
-    height: 100vh;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 20vh;
     display: flex;
     flex-direction: column;
 }
 
-/* main h1{
-    margin-left: 10px;
-}
-
-main header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    background-color: white;
-    color: black;
-}
-
-main header nav{
-    display: flex;
-    flex-direction: row;
-
-}
-
-main header nav a{
-    display: flex;
-    align-items: center;
-    padding: 20px 10px;
-    transition: all 0.2s ease;
-    text-decoration: none!important;
-    color:inherit;
-}
-
-
-main header nav a:hover {
-    background-color: #444444;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 4px 10px;
-} */
-
 main div{
-    background-image:  url(images/bgImage.jpg);
+    /* background-image: url(images//Image_1115561000.png); */
+    background-color: black;
     flex-grow: 1;
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover; */
     background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
+
 }
-main div h2 {
+main div h2{
     color: white;
     font-size: 40px;
-    margin-top: 300px;
     text-align: center;
 }
 
@@ -82,8 +47,7 @@ section{
 }
 
 #wip div div img{
-    width: 100px;
-    margin: 20px;
+    margin: 10px;
 }
 
 /* footer{
