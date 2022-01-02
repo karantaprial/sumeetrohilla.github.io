@@ -31,6 +31,8 @@ section{
     font-size: larger;
     text-align: center;
     justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #wip div{
