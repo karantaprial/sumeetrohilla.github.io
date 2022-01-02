@@ -6,10 +6,12 @@
 }
 
 main{
-    height: 100vh;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 20vh;
     display: flex;
     flex-direction: column;
-    background-color: white;
 }
 
 
