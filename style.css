@@ -8,7 +8,6 @@ main{
     display: flex;
     margin-left: 20px;
     margin-right: 20px;
-    height: 20vh;
     display: flex;
     flex-direction: column;
 }
@@ -18,6 +17,7 @@ main div{
     /* background-image: url(images//Image_1115561000.png); */
     /* background-color: black; */
     /* background-size: cover; */
+    flex-direction: 1;
 }
 main div h2{
     color: black;
