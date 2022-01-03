@@ -22,7 +22,7 @@ main div{
 main div h2{
     color: black;
     /* font-size: 40px; */
-    text-align: justify;
+    text-align: left;
     margin-top: 100px;
 }
 
