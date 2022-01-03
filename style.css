@@ -14,16 +14,16 @@ main{
 }
 
 main div{
+    display: flex;
     /* background-image: url(images//Image_1115561000.png); */
-    background-color: black;
-    flex-grow: 1;
+    /* background-color: black; */
     /* background-size: cover; */
-    background-repeat: no-repeat;
 }
 main div h2{
-    color: white;
-    font-size: 40px;
-    text-align: center;
+    color: black;
+    /* font-size: 40px; */
+    text-align: justify;
+    margin-top: 100px;
 }
 
 section{
@@ -33,6 +33,7 @@ section{
     justify-content: center;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 100px;
 }
 
 #wip div{
