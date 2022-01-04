@@ -4,6 +4,11 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+.flex{
+    display: flex;
+    gap: var(--gap, 0.5rem);
+}
+
 main{
     display: flex;
     margin-left: 20px;
@@ -16,7 +21,7 @@ main div{
     /* background-image: url(images//Image_1115561000.png); */
     /* background-color: black; */
     /* background-size: cover; */
-    flex-direction: 1;
+    flex-direction: column;
 }
 main div h2{
     color: black;
@@ -54,6 +59,7 @@ section{
 
 body{
     animation: transitionIn 2s;
+    overflow-x: hidden;
 }
    
 @keyframes transitionIn{
