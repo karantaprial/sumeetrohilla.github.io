@@ -9,6 +9,10 @@
     gap: var(--gap, 0.5rem);
 }
 
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 main{
     display: flex;
     position: sticky;
