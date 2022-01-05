@@ -6,7 +6,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-
+        <title>Sumeet Rohilla Portfolio</title>
+        <link rel="shortcut icon" type="image/jpg" href="images/logo_favicon.svg"/>
         <script
             src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -31,7 +32,7 @@
                 display: flex;
                 margin-left: 20px;
                 margin-right: 20px;
-                height: 10vh;
+                height: 0vh;
                 flex-direction: column;
             }
 
@@ -56,11 +57,16 @@
                 margin-left: 10px;
                 margin-right: 10px;
             }
+            @media(max-width: 35em){
+                section{
+                    height: 70vh;
+                }
+            }
         </style>
     </head>
     
     <body>
-        <main>
+        <main style="position: sticky; top: 0;">
             <header style="display: flex;
             justify-content: space-between;
             flex-direction: row;
@@ -70,9 +76,9 @@
             color: black;" id="myheader">
             </header>
         </main>
-        <div>
+        <section>
             <img style="display:block;max-width:100%;" src="/images/wip_site.gif" alt="Work in progress">
-        </div>
+        </section>
         </main>
         <!-- <section style="height: 20rem;"></section> -->
         <footer>
